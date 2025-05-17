@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign for Good Health and Well-being - Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Campaign for Good Health and Well-being</h1>
+        <p class="tagline">Join us in building a world of good health and well-being for underprivileged communities.</p>
+    </header>
+    <main>
+        <section class="form-container">
+            <form id="signupForm">
+                <div>
+                    <label for="firstName">First Name* </label>
+                    <input type="text" id="firstName" name="firstName" required>
+                    <span class="required">Required</span>
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name* </label>
+                    <input type="text" id="lastName" name="lastName" required>
+                    <span class="required">Required</span>
+                </div>
+
+                <div>
+                    <span>Sex*</span>
+                    <label><input type="radio" name="sex" value="Male" required> Male</label>
+                    <label><input type="radio" name="sex" value="Female"> Female</label>
+                    <label><input type="radio" name="sex" value="Prefer not to say"> Prefer not to say</label>
+                    <span class="required">Required</span>
+                </div>
+
+                <div>
+                    <label for="email">Email Address* </label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="required">Required</span>
+                </div>
+
+                <div>
+                    <label for="password">Password* </label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="required">Required</span>
+                </div>
+
+                <div>
+                    <label for="contact">Contact Number</label>
+                    <input type="tel" id="contact" name="contact">
+                </div>
+
+                <div>
+                    <label for="reason">Why are you supporting our campaign?* </label>
+                    <textarea id="reason" name="reason" required></textarea>
+                    <span class="required">Required</span>
+                </div>
+
+                <button type="submit">Join Our Campaign</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
